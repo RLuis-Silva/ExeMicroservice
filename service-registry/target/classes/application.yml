@@ -1,0 +1,8 @@
+server:
+  port: 8761
+
+eureka: 
+  client:
+    #evito autoimpl, tenendo a false
+    register-with-eureka: false
+    fetch-registry: false 
